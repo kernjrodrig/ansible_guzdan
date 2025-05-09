@@ -1,0 +1,6 @@
+- name: ping de prueba
+  hosts: all  
+  tasks:
+    - name: usamos el modulo ping
+      ansible.builtin.ping:
+        data: crash
